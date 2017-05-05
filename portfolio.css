@@ -1,0 +1,68 @@
+body {
+    margin: auto;
+}
+
+h1 {
+  margin-top: 5px;
+  font-size: 60px;
+  color: #b2afae;
+  margin-left: 30%;
+  font-style: italic;
+  font-weight: bold;
+  box-shadow: #280201;
+  margin-bottom: 25px;
+  text-shadow: 0px 3px 5px rgba(249, 152, 158, .95);
+}
+
+h2 {
+    margin-top: -15px;
+    font-size: 65px;
+    margin-left: 35%;
+    color:  #86a2a8;
+    box-shadow: #280201;
+    text-shadow: 0px 1px 3px rgba(249, 152, 158, .95);
+}
+
+h3 {
+  margin-left: 35%;
+  margin-top: -20%;
+  color: #b2afae;
+  font-size: 40px;
+}
+
+.portfolio::after {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  content: "";
+}
+
+.front p {
+  font-size: 30px;
+  margin-bottom: -30px;
+  color: #af748c;
+}
+
+.back p {
+  font-size: 30px;
+  margin-top: 70px;
+  margin-bottom: -70px;
+  color: #af748c;
+}
+
+a {
+  font-size: 20px;
+  color: #86a2a8;
+}
+
+.projects {
+  margin-top: -75px;
+  margin-left: 2%;
+}
