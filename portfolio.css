@@ -20,6 +20,7 @@ h2 {
     margin-left: 35%;
     color:  #86a2a8;
     box-shadow: #280201;
+    font-weight: lighter;
     text-shadow: 0px 1px 3px rgba(249, 152, 158, .95);
 }
 
@@ -28,6 +29,7 @@ h3 {
   margin-top: -20%;
   color: #b2afae;
   font-size: 40px;
+  font-weight: 500;
 }
 
 .portfolio::after {
