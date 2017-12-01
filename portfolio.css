@@ -2,6 +2,21 @@ body {
     margin: auto;
 }
 
+.tranparency::after {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  margin-bottom: 25px;
+}
+
 h1 {
   margin-top: 5px;
   font-size: 60px;
