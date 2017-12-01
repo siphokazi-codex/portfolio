@@ -3,7 +3,7 @@ body {
 }
 
 .tranparency::after {
-  background-image: url('back.jpg');
+  background-image: url('background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5;
@@ -45,20 +45,6 @@ h3 {
   color: #b2afae;
   font-size: 40px;
   font-weight: 500;
-}
-
-.portfolio::after {
-  background-image: url('background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 1;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  content: "";
 }
 
 .front p {
